@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #FFF;
+}
+
+#timer {
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Silkscreen', cursive;
+}
+
+#days {
+    font-size: 92px;
+    line-height: 92px;
+}
+
+#milliseconds {
+    width: 172px;
+    font-size: 38px;
+    line-height: 38px;
+}
+
+#dot {
+    font-size: 38px;
+    line-height: 38px;
+}
+
+.counter_text {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+footer {
+    position: fixed;
+    bottom: 12px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+footer a {
+    color: #FFF;
+}
