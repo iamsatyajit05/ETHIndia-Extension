@@ -10,8 +10,8 @@ body {
     align-items: center;
     height: 100vh;
     font-family: Arial, sans-serif;
-    background-color: #000;
-    color: #FFF;
+    background-color: #FBE8BF;
+    color: #543869;
 }
 
 #timer {
@@ -36,6 +36,18 @@ body {
     line-height: 38px;
 }
 
+.ethArt{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 100vh;
+    right: 4%;
+}
+
+.ethArt img {
+    width: 30vw;
+}
+
 .counter_text {
     margin-top: 20px;
     font-size: 16px;
@@ -50,5 +62,5 @@ footer {
 }
 
 footer a {
-    color: #FFF;
+    color: #543869;
 }

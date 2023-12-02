@@ -1,4 +1,4 @@
-const targetDate = new Date("2023-12-08T00:00:00+05:30");
+const targetDate = new Date("2023-12-08T14:00:00+05:30");
 
 function updateTimer() {
     const currentDate = new Date().getTime();
